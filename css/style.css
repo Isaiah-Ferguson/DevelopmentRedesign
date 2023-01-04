@@ -7,3 +7,72 @@
     font-family: ChangaOne;
     src: url(../fonts/ChangaOne-Regular.ttf);
  }
+ .NavFont{
+   font-family: Changa;
+   font-weight: bold;
+   font-size: xx-large;
+   color: white;
+ }
+.Logo {
+   width: 300px;
+}
+#myBtn {
+   display: none; /* Hidden by default */
+   position: fixed; /* Fixed/sticky position */
+   bottom: 20px; /* Place the button at the bottom of the page */
+   right: 30px; /* Place the button 30px from the right */
+   z-index: 99; /* Make sure it does not overlap */
+   border: none; /* Remove borders */
+   outline: none; /* Remove outline */
+   background-image: url(../assets/pngwing.com.png);
+   cursor: pointer; /* Add a mouse pointer on hover */
+   padding: 10px; /* Some padding */
+   border-radius: 10px; /* Rounded corners */
+   font-size: 18px; /* Increase font size */
+ }
+ 
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: rgb(150, 9, 9);
+    border-color: #fff;
+    outline: 3px solid white;
+    padding: 3px;
+    display: inline-block;
+}
+ #myBtn:hover {
+   background-color: rgb(185, 185, 252);
+   opacity: .5;
+ }
+ .parent {
+   background-image: url(/assets/1163994.jpg);
+ }
+ body {
+   background-image: url(/assets/wallpaperflare.com_wallpaper\ \(1\).jpg);
+   background-repeat: repeat;
+ }
+ /* most text here - Harrison */
+#OurPhilosophyP {
+  font-family: Changa;
+  font-weight: bolder;
+  font-size: 38px;
+  color: #fff;
+}
+/* Centered text with blue smokey BG */
+.centered {
+   font-weight: bold;
+   font-family: Changa;
+   text-align: center;
+   font-size: 96px;
+   background-image: url(/assets/1163994.jpg);
+   margin: 0;
+   padding: 2%;
+ }
+ .CoachImgs {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   height: 100vh;
+ }
