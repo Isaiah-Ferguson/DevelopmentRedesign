@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BreakSite</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="Bg">
+   <!--This is the Header / Nav bar for Desktop--> 
+<div class="container d-flex justify-content-center d-none d-xxl-block">
+    <div class="row d-flex align-items-end NavFont container-fluid ">
+        <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../index.html"
+                style="text-decoration:none; color: white;">Home</a></div>
+        <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/classes.html"
+                style="text-decoration:none; color: white;">Classes</a></div>
+        <div class="col d-flex justify-content-center"><img class="Logo" src="../assets/my_project.png" alt="Team Cama Logo">
+        </div>
+        <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/aboutus.html"
+                style="text-decoration:none; color: white;">About Us</a></div>
+        <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/contactus.html"
+                style="text-decoration:none; color: white;">Contact us</a></div>
+    </div>
+</div>
+<!--This is the Header / Nav bar for Tablet--> 
+<div class="container d-flex justify-content-center d-xxl-none d-xxl-block d-none d-sm-block">
+    <div class="row d-flex align-items-end NavFontTablet container-fluid ">
+        <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../index.html"
+                style="text-decoration:none; color: white;">Home</a></div>
+        <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/classes.html"
+                style="text-decoration:none; color: white;">Classes</a></div>
+        <div class="col d-flex justify-content-center"><img style="height: 125px; width: 200px;" class="Logo" src="../assets/my_project.png" alt="Team Cama Logo">
+        </div>
+        <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/aboutus.html"
+                style="text-decoration:none; color: white;">About Us</a></div>
+        <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/contactus.html"
+                style="text-decoration:none; color: white;">Contact us</a></div>
+    </div>
+</div>
+<!--MOBILE NAV BAR-->
+<div style="position:absolute; height: 55px;" class="container SolidBlack d-block d-sm-none"></div>
+<div class="d-flex justify-content-end d-block d-sm-none">
+<nav style="position:absolute;" class="navbar navbar-expand-lg  d-block d-sm-none">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler ClassTextBg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <div class="d-flex justify-content-end">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link NavFontTablet" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link NavFontTablet" href="../pages/classes.html">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link NavFontTablet" href="../pages/aboutus.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link NavFontTablet" href="../pages/contactus.html">Contact</a>
+          </li>
+        </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<br class="d-block d-sm-none">
+<br class="d-block d-sm-none">
+<br class="d-block d-sm-none">
+  <div class="col d-flex justify-content-beginning d-block d-sm-none"><img style="height: 125px; width: 200px; position: static" class="Logo" src="../assets/my_project.png" alt="">
+  </div>
+
+<br>
+<!--Hero Image / Carousel for Desktop-->
+    <div class="container-fluid d-none d-xxl-block ">
+        <div id="carouselExampleControls"  class="carousel slide container-fluid" data-bs-ride="carousel">
+            <div class="carousel-inner d-none d-xxl-block" style="height: 1000px;">
+                <div class="carousel-item active">
+                    <img src="./assets/DCS_3681.jpg" class="d-block w-100" alt="Team Cama group Photo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/DCS_3481.jpg" class="d-block w-100" alt="Tina Photo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/DCS_2163.jpg" class="d-block w-100" alt="Tina Comp Photo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/DCS_2289.jpg" class="d-block w-100" alt="Kyle Knee PHoto">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/DCS_3706.jpg" class="d-block w-100" alt="Team Cama group Photo">
+                </div>
+            </div>
+            <button class="carousel-control-prev ChangaBold SolidBlack d-none d-xxl-block" style="margin: 600px 0 200px 1400px; text-decoration:none; color: white;"><a href="./pages/contactus.html"> One Week Free!</a></button>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+<!--Hero Carousel for Mobile / Tablet-->
+    <div class="d-xxl-none d-xxl-block d-none d-sm-block">
+        <div id="carouselExampleControls"  class="carousel slide container-fluid" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="./assets/DCS_3681.jpg" class="d-block w-100" alt="Team Cama group Photo"">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/DCS_3481.jpg" class="d-block w-100" alt="Tina Photo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/DCS_2163.jpg" class="d-block w-100" alt="Tina Comp Photo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/DCS_2289.jpg" class="d-block w-100" alt="Kyle Knee PHoto">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/DCS_3706.jpg" class="d-block w-100" alt="Team Cama group Photo"">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="col-12 d-block d-sm-none"><img src="./assets/DCS_3690.jpg" alt="" style="height: fit-content; width: 100%;">Team Cama</div>
+    
+
+    
+    <br class="d-none d-sm-block">
+    <br class="d-none d-sm-block">
+    <!--Why Team Cama Desktop-->
+    <div class="container TextBg1">
+    <div class="container  d-flex justify-content-center">
+        <div class="row CamaFont d-flex justify-content-center d-none d-sm-block">WHY</div>
+        </div>
+        <div class="container  d-flex justify-content-center">
+        <div class="row CamaFont d-flex justify-content-center d-none d-sm-block">T E A M - C A M A</div>
+    </div>
+</div>
+
+<!--Why Team Cama Mobile-->
+<div class="container TextBg1">
+    <div class="row ChangamobileClass d-flex justify-content-center d-block d-sm-none">WHY</div>
+    <div class="row ChangamobileClass d-flex justify-content-center d-block d-sm-none">T E A M - C A M A</div>
+</div>
+
+<!--Team Cama Statement Desktop-->
+    <div class="container ChangaXL d-flex justify-content-center badge text-wrap d-none d-sm-block">We Provide an Excellent Training envormnent</div>
+
+<!--Team Cama Statement Mobile-->
+<div class="container ChangaSchedule d-flex justify-content-center badge text-wrap d-block d-sm-none">We Provide an Excellent Training envormnent</div>
+
+<!--Carousel for MT, BJJ, TKD Desktop-->
+
+    <div class="container d-none d-sm-block">
+        <div class="row ">
+            <div class="col-7 "><div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active imgBorder">
+                    <img src="./assets/DCS_1617.jpg" class="d-block w-100" alt="Muay Thai Picture">
+                  </div>
+                  <div class="carousel-item imgBorder">
+                    <img src="./assets/FB_IMG_1547367304441.jpg" class="d-block w-100" alt="Jiu Jitsu Picture">
+                  </div>
+                  <div class="carousel-item imgBorder">
+                    <img src="./assets/IMG_6824.jpg" class="d-block w-100" alt="TKD Picture">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button  class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div></div>
+              <div class="col-5 ChangaLarge align-self-center d-none d-xxl-block">
+                <div class="d-flex justify-content-center">Brazilian</div>
+                <div class="d-flex justify-content-center">Jiu-Jitsu</div>
+                <br>
+                <div class="d-flex justify-content-center">Traditional</div>
+                <div class="d-flex justify-content-center">Taekwondo</div>
+                <br>
+                <div class="d-flex justify-content-center">Muay-Thai</div>
+            </div>
+            <div class="col-5 NavFont align-self-center d-xxl-none d-xxl-block">
+                <div class="d-flex justify-content-center">Brazilian</div>
+                <div class="d-flex justify-content-center">Jiu-Jitsu</div>
+                <br>
+                <div class="d-flex justify-content-center">Traditional</div>
+                <div class="d-flex justify-content-center">Taekwondo</div>
+                <br>
+                <div class="d-flex justify-content-center">Muay-Thai</div>
+            </div>
+        </div>
+    </div>
+
+<!--Carousel for MT, BJJ, TKD Mobile-->
+
+<div class="container d-block d-sm-none">
+    <div class="">
+        <div class="col-12"><div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active imgBorder">
+                <img src="./assets/DCS_1617.jpg" class="d-block w-100" alt="Muay Thai Picture">
+              </div>
+              <div class="carousel-item imgBorder">
+                <img src="./assets/FB_IMG_1547367304441.jpg" class="d-block w-100" alt="BJJ Picture">
+              </div>
+              <div class="carousel-item imgBorder">
+                <img src="./assets/IMG_6824.jpg" class="d-block w-100" alt="TKD Picture">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button  class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div></div>
+    </div>
+</div>
+<br class="d-block d-sm-none">
+<div class="container NavFont d-block d-sm-none d-flex justify-content-center align-items-center ClassTextBg">
+    <div class="col-6">
+    <div class="d-flex justify-content-center ClassTextBg">Muay-Thai</div>
+    <br>
+</div>
+<div class="col-6">
+    <div class="d-flex justify-content-center ClassTextBg">Brazilian</div>
+    <div class="d-flex justify-content-center ClassTextBg">Jiu-Jitsu</div>
+    <br>
+</div>
+</div>
+<div class=" NavFont d-block d-sm-none ClassTextBg">
+<div class="d-flex justify-content-center">Traditional</div>
+<div class="d-flex justify-content-center">Taekwondo</div>
+</div>
+
+<br>
+<br>
+
+
+<!--Mission Statement Desktop-->
+<div class="container d-flex justify-content-center ClassTextBg">
+    <div class=" ChangaLarge d-none d-sm-block">OUR MISSION:</div>
+</div>
+<div class="container d-flex justify-content-center ClassTextBg">
+    <div class="ChangaLarge d-none d-sm-block">EMPOWER & PROMOTE</div>
+</div>
+
+
+
+<!--Mission Statement Mobile-->
+
+    <div class="container ChangaOneMobile d-flex justify-content-center ClassTextBg d-block d-sm-none">OUR MISSION:</div>
+    <div class="container ChangaOneMobile d-flex justify-content-center ClassTextBg d-block d-sm-none">EMPOWER & PROMOTE</div>
+       <br>
+
+       <!--Unity Respect Integrity Discipline img and text DESKTOP-->
+    
+    <div class="container d-none d-sm-block">
+        <div class="row">
+            <div class="col-7 "><img class="imgBorder" src="./assets/DCS_3652.jpg" alt="BJJ Picture2" style="height: fit-content; width: 100%;"></div>
+            
+            <div class="col-5 ChangaLargeB align-self-center d-none d-xxl-block ">
+                <div class="whiteTextBg d-flex justify-content-center">INTEGRITY</div>
+                <br>
+                <div class="whiteTextBg d-flex justify-content-center">UNITY</div>
+                <br>
+                <div class="whiteTextBg d-flex justify-content-center">RESPECT</div>
+                <br>
+                <div class="whiteTextBg d-flex justify-content-center">DESCIPLINE</div>
+            </div>
+
+            <div class="col-5 ChangaTAblet align-self-center d-xxl-none d-xxl-block">
+                <div class="whiteTextBg d-flex justify-content-center">INTEGRITY</div>
+                <br>
+                <div class="whiteTextBg d-flex justify-content-center">UNITY</div>
+                <br>
+                <div class="whiteTextBg d-flex justify-content-center">RESPECT</div>
+                <br>
+                <div class="whiteTextBg d-flex justify-content-center">DESCIPLINE</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Unity Respect Integrity Discipline img and text MOBILE-->
+
+    <div class="container d-block d-sm-none ">
+        <div class="row">
+            <div class="col-12 "><img class="imgBorder" src="./assets/DCS_3652.jpg" alt="BJJ Picture2" style="height: fit-content; width: 100%;"></div>
+
+            </div>
+        </div>
+        </div>
+<div class="d-flex justify-content-center">
+        <div class="container1 d-block d-sm-none whiteTextBg " >
+            <div class="row ">
+                <div class="col-6 ChangaSchedule" style="padding-left: 20px;">
+                    <div class="SolidBlack d-flex justify-content-center" >INTEGRITY</div>
+                    <br>
+                    <div class="SolidBlack d-flex justify-content-center">UNITY</div>
+                    <br>
+                </div>
+                    <div class="col-6 ChangaSchedule"  style="padding-right: 20px;">
+                    <div class="SolidBlack d-flex justify-content-center">RESPECT</div>
+                    <br>
+                    <div class="SolidBlack d-flex justify-content-center">DESCIPLINE</div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<br>
+
+
+<!--Team Cama Philosophy Desktop-->
+    <div class="container ptext ClassTextBg d-none d-sm-block">
+        <br>
+        <br>
+<div class="row ChangaReg">
+<p>We believe that physical skill and talent comes second to proper Attitude and character. Most people can learn to fight and hurt but a lot of people need to battle & crush negativity within themselves.  </p>
+<p>That being a  lack of discipline, self-confidence, self-doubt, laziness, anger, hate... The first step is believing in yourself and making a positive change.</p>
+<div class="d-flex justify-content-center"><p>"The journey of a thousand miles begins with a single step"</p></div></div>
+<br>
+</div>
+
+<!--Team Cama Philosophy Mobile-->
+<div class="container ChangaReg ClassTextBg d-block d-sm-none">
+    <br>
+    <br>
+<div class="row ChangaMobileSchedule">
+<p>We believe that physical skill and talent comes second to proper Attitude and character. Most people can learn to fight and hurt but a lot of people need to battle & crush negativity within themselves.  </p>
+<p>That being a  lack of discipline, self-confidence, self-doubt, laziness, anger, hate... The first step is believing in yourself and making a positive change.</p>
+<div class="d-flex justify-content-center"><p>"The journey of a thousand miles begins with a single step"</p></div></div>
+<br>
+</div>
+
+
+
+<br>
+<!--Desktop Footer-->
+<div class="d-flex justify-content-center d-none d-xxl-block ">
+    <div class=" footer container-fluid">
+        <div class=" footer-contnet">
+            <div class="row">
+                <div class="col-4">
+                    <div class="d-flex justify-content-center">
+                    <img class=" Logo" src="../assets/my_project.png" alt="Team Cama Logo">
+                </div>
+                <hr>
+                <div class="d-flex justify-content-center">
+            <h3 class="ChangaReg footerText">Connect With Us</h3>
+        </div>
+        <div class="d-flex justify-content-center">
+           <div class="Social">
+            <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/facebook.png" style="height: 70px;" alt=""></a></li>
+            <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/twitter (1).png" style="height: 70px;" alt=""></a></li>
+            <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/Tiktok.png" style="height: 70px;" alt=""></a></li>
+            <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/youtube.png" style="height: 70px;" alt=""></a></li>
+           </div>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="align-text-center ChangaReg" style="padding-left: 50px;">
+                <div>
+                    <h3 class="footerText" style="padding-top: 100px;">Developers Git-Hubs</h3>
+                </div>
+                <div>
+                <p>Arely Martinez</p>
+                <p style="padding: 15px 0;">Isaiah Ferguson</p>
+                <p>Harrison Wilkins</p>
+             </div>
+        </div>
+    </div>
+        <div class="col-4">
+            <div class="align-text-center ChangaReg" style="padding-left: 50px;">
+                <div>
+                    <h3 class="footerText" style="padding-top: 100px;">Contact Us</h3>
+                </div>
+                <div class="FooterText2">
+                <p>E-mail: 123@TeamCama.com</p>
+                <p style="padding: 15px 0;">Phone Number: 209-123-45678</p>
+                <p>Address: 8909 Thornton rd #2</p>
+             </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <br>
+
+</div>
+<br>
+<br>
+<!--Tablet Footer-->
+<div class="d-flex justify-content-center d-none d-sm-block d-xxl-none .d-xxl-block">
+    <div class=" footer container-fluid">
+        <div class=" footer-contnet">
+            <div class="row">
+                <div class="col-4">
+                    <div class="d-flex justify-content-center">
+                    <img class=" Logo" src="../assets/my_project.png" alt="Team Cama Logo">
+                </div>
+                
+                <div class="d-flex justify-content-center">
+            <h3 class="ChangaReg footerTextMobile">Connect With Us</h3>
+        </div>
+        <div class="d-flex justify-content-center">
+           <div class="Social">
+            <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/facebook.png" style="height: 50px;" alt=""></a></li>
+            <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/twitter (1).png" style="height: 50px;" alt=""></a></li>
+            <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/Tiktok.png" style="height: 50px;" alt=""></a></li>
+            <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/youtube.png" style="height: 50px;" alt=""></a></li>
+           </div>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="align-text-center ChangaRegMobile" style="padding-left: 50px;">
+                <div>
+                    <h3 class="footerTextMobile" style="padding-top: 100px;">Developers Git-Hubs</h3>
+                </div>
+                <div>
+                <p>Arely Martinez</p>
+                <p style="padding: 15px 0;">Isaiah Ferguson</p>
+                <p>Harrison Wilkins</p>
+             </div>
+        </div>
+    </div>
+        <div class="col-4">
+            <div class="align-text-center ChangaRegMobile" style="padding-left: 50px;">
+                <div>
+                    <h3 class="footerTextMobile" style="padding-top: 100px;">Contact Us</h3>
+                </div>
+                <div class="ChangaRegMobile">
+                <p>E-mail: 123@TeamCama.com</p>
+                <p style="padding: 15px 0;">Phone Number: 209-123-45678</p>
+                <p>Address: 8909 Thornton rd #2</p>
+             </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <br>
+</div>
+
+<!--Mobile Footer-->
+<div class="d-flex justify-content-center d-block d-sm-none">
+    <div class=" footer container-fluid">
+        <div class=" footer-contnet">
+            <div class="row">
+                <div class="col-5">
+                    <div class="d-flex justify-content-center">
+                        <img style="height: 125px; width: 200px;" class="Logo" src="../assets/my_project.png" alt="Team Cama Logo">
+                </div>
+                
+                <div class="d-flex justify-content-center">
+            <h3 class="ChangaReg footerTextMobile badge text-wrap">Connect With Us</h3>
+        </div>
+        <div class="d-flex justify-content-center">
+           <div class="SocialMobile">
+            <li style="padding: 0px 15px 0 15px;"><a href="#"><img src="../assets/facebook.png" style="height: 50px;" alt=""></a></li>
+            <li style="padding: 0px 15px 0 15px;"><a href="#"><img src="../assets/twitter (1).png" style="height: 50px;" alt=""></a></li>
+          </div>
+        </div>
+          <div class="d-flex justify-content-center">
+            <div class="SocialMobile">
+                <li style="padding: 0px 15px 0 15px;"><a href="#"><img src="../assets/Tiktok.png" style="height: 50px;" alt=""></a></li>
+                <li style="padding: 0px 15px 0 15px;"><a href="#"><img src="../assets/youtube.png" style="height: 50px;" alt=""></a></li>
+            </div>
+        </div>
+    </div>
+        <div class="col-7">
+            <div class="align-text-center ChangaRegMobile" style="padding-left: 35px; padding-top: 35px;">
+                <div>
+                    <h3 class="footerTextMobile">Developers Git-Hubs</h3>
+                </div>
+                <div>
+                <p>Isaiah Ferguson</p>
+                <p>Harrison Wilkins</p>
+             </div>
+        </div>
+        <div class="align-text-center ChangaRegMobile" style="padding-left: 35px; padding-top: 35px;">
+            <div>
+                <h3 class="footerTextMobile">Contact Us</h3>
+            </div>
+            <div class="ChangaRegtablet ">
+            <p>E-mail: 123@TeamCama.com</p>
+            <p >Phone Number: 209-123-45678</p>
+            <p>Address: 8909 Thornton rd #2</p>
+         </div>
+    </div>
+    </div>
+        
+        </div>
+        </div>
+    </div>
+    <br>
+</div>
+<br>
+<br>
+ 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img height="30" src="../assets/up.png" alt=""></button>
+    <script src="./scripts/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

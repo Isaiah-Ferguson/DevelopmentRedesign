@@ -7,3 +7,289 @@
     font-family: ChangaOne;
     src: url(../fonts/ChangaOne-Regular.ttf);
  }
+
+ .Bg{
+    background-image: url(../assets/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    position: sticky;
+    opacity: 100%;
+}
+
+.NavFont{
+    font-family: Changa;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+
+.NavFontTablet{
+   font-family: Changa;
+   font-weight: bold;
+   font-size: 19px;
+   color: white;
+}
+
+.TitleFont{
+    font-family: Changa;
+    font-weight: 1000;
+    font-size: 100px;
+    color: black;
+}
+
+.CamaFont{
+   font-family: Changaone;
+   font-weight:bolder;
+   font-size: 100px;
+   color: black;
+}
+.ClassImgOne{
+    background-image: url(../assets/classesMT.jpg);
+    background-size: cover;
+}
+.ClassImgTwo{
+    background-image: url(../assets/classesBJJ.jpg);
+    background-size: cover;
+}
+.ClassImgThree{
+    background-image: url(../assets/IMG_6773.jpg);
+    
+}
+
+.ClassTextBg{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ClassTextBg2{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 450px 0 20px 0;
+    text-align: center;
+}
+
+.ClassTextBg3{
+   background-color: rgba(0, 0, 0, 0.6);
+   margin: 480px 0 50px 0;
+   text-align: center;
+}
+
+.ClassTextBgMobile{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 200px 0 25px 0;
+    text-align: center;
+ }
+
+
+.Logo{
+    width: 300px;
+}
+
+.TextBg{
+    background-image: url(../assets/1163994.jpg);
+    height: 125px;
+}
+
+.TextBg1{
+   background-image: url(../assets/1163994.jpg);
+   height: fit-content;
+}
+
+.ChangaLarge{
+    font-family: ChangaOne;
+    font-size: 64px;
+    color: white;
+}
+
+.ChangaOneMobile{
+    font-family: ChangaOne;
+    font-size: 34px;
+    color: white;
+}
+
+.ChangaXL{
+   font-family: Changa;
+   font-size: 80px;
+   color: white;
+}
+
+.ChangaLargeB{
+   font-family: ChangaOne;
+   font-size: 72px;
+   color: rgb(0, 0, 0);
+}
+
+.ChangaTAblet{
+   font-family: ChangaOne;
+   font-size: 36px;
+   color: rgb(0, 0, 0);
+}
+
+.ChangaTabletClass{
+   font-family: ChangaOne;
+   font-size: 70px;
+   color: rgb(0, 0, 0);
+}
+
+.ChangamobileClass{
+   font-family: ChangaOne;
+   font-size: 45px;
+   color: rgb(0, 0, 0);
+}
+
+.ChangaBold{
+    font-family: Changa;
+    font-weight: bold;
+    font-size: 58px;
+    color: white;
+}
+
+.ChangaReg{
+    font-family: Changa;
+    font-size: 27px;
+    color: white;
+}
+
+.ChangaRegMobile{
+   font-family: Changa;
+   font-size: small;
+   color: white;
+}
+
+.ChangaRegtablet{
+   font-family: Changa;
+   font-size: x-small;
+   color: white;
+}
+
+.ChangaSchedule{
+    font-family: Changa;
+    font-size: 32px;
+    color: white;
+}
+
+.ChangaMobileSchedule{
+   font-family: Changa;
+   font-size: 18px;
+   color: white;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.SolidBlack{
+    background-color: rgba(0, 0, 0);
+}
+
+.whiteTextBg{
+   background-color: rgba(255, 255, 255);
+}
+
+.ptext{
+    padding: 0px 75px;
+}
+
+.Social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.SocialMobile{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   margin: 1rem 0 1rem 0;
+}
+
+.footerText{
+    font-family: ChangaOne;
+    font-size: 36px;
+}
+
+.footerTextMobile{
+   font-family: ChangaOne;
+   font-size: 26px;
+}
+
+.FooterText2{
+    font-family: Changa;
+    font-size: 24px;
+}
+
+hr {
+    height: 5px;
+    background: white;
+    opacity: 1;
+    margin-left: 40px;
+    width: 80%;
+}
+
+.container1{
+    width: 94%;
+}
+.HomeButton{
+   padding-top: 600px;
+   padding-left: 600px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: red;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #000324;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: rgb(150, 9, 9);
+    border-color: #fff;
+    outline: 3px solid white;
+    padding: 3px;
+    display: inline-block;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-image: url(../assets/pngwing.com.png);
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(185, 185, 252); 
+    opacity: .5;
+  }
+
+.imgBorder {
+   border: 25px solid rgb(255, 255, 255);
+ }
+
+ .PhotoScroll{
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    overflow: scroll;
+  }
+
+  .carolImg{
+    width: auto;
+    height: 500px;
+    max-height: 5500px;
+  }
+
