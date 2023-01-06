@@ -13,6 +13,12 @@
    font-size: xx-large;
    color: white;
  }
+ .NavFontTablet{
+  font-family: Changa;
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
+}
 .Logo {
    width: 300px;
 }
@@ -71,10 +77,22 @@
    margin: 0;
    padding: 2%;
  }
+ .contactTitle {
+  font-weight: bold;
+   font-family: Changa;
+   text-align: center;
+   font-size: 48px;
+   margin: 0;
+   
+ }
 #Coaches {
    display: flex;
    width: 323px;
    height: 50vh;
+}
+#Address {
+  font-size: 24px;
+  margin-bottom: 1%;
 }
 
 
@@ -85,22 +103,23 @@
 input[type=text], select, textarea {
    width: 100%; /* Full width */
    padding: 12px; /* Some padding */ 
-   border: 1px solid #ccc; /* Gray border */
+   border: 4px solid rgb(0, 0, 0); /* Black border */
    border-radius: 4px; /* Rounded borders */
    box-sizing: border-box; /* Make sure that padding and width stays in place */
    margin-top: 6px; /* Add a top margin */
    margin-bottom: 16px; /* Bottom margin */
-   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+   resize: vertical /* Allow the user to horizontally resize the textarea (not horizontally) */
  }
- 
+
  /* Style the submit button with a specific background color etc */
  input[type=submit] {
-   background-color: rgb(132, 0, 0);
+   background-color: rgb(0, 0, 0);
    color: white;
    padding: 12px 20px;
    border: none;
    border-radius: 4px;
    cursor: pointer;
+   display: flex;
  }
  
  /* When moving the mouse over the submit button, add a darker green color */
@@ -111,8 +130,109 @@ input[type=text], select, textarea {
  /* Add a background color and some padding around the form */
  .contactCard {
    border-radius: 5px;
-   background-color: #f2f2f2;
-   padding: 1%;
-   margin-top: 1%;
+   background-image: url(/assets/1163994.jpg);
+   
  }
- 
+ .SolidBlack{
+  background-color: rgba(0, 0, 0);
+}
+
+
+/* footer */
+.footer{
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 2%;
+}
+.Social{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 3rem 0;
+}
+.SocialMobile{
+ list-style: none;
+ display: flex;
+ align-items: center;
+ margin: 1rem 0 1rem 0;
+}
+.footerText{
+  font-family: ChangaOne;
+  font-size: 36px;
+}
+.footerTextMobile{
+ font-family: ChangaOne;
+ font-size: 26px;
+}
+.FooterText2{
+  font-family: Changa;
+  font-size: 24px;
+}
+.ChangaReg{
+  font-family: Changa;
+  font-size: 27px;
+  color: white;
+}
+.ChangaRegMobile{
+ font-family: Changa;
+ font-size: small;
+ color: white;
+}
+
+
+.contact {
+  border: 2px solid black;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#GymHours {
+  font-family: Changa;
+  font-size: 42px;
+  color: red;
+}
+.schedule {
+  font-size: 28px;
+}
+@media screen and (max-width: 515px) {
+  .contactTitle {
+    font-size: 30px;
+    padding: 5%;
+  }
+  .contact {
+    font-size: 24px;
+  }
+  #Address {
+    font-size: 8px;
+  }
+  #GymHours {
+    font-size: 15px;
+  }
+  .schedule {
+    font-size: 10px;
+  }
+  .centered {
+    font-size: 30px;
+    background-image: url(/assets/1163994.jpg);
+    background-size: cover;
+  }
+  #space {
+    height: 54px;
+  }
+  #OurPhilosophyP {
+    font-size: 17px;
+    margin: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width:768px){
+  .contactTitle {
+    font-size: 30px;
+  }
+}

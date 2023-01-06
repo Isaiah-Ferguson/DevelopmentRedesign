@@ -1,63 +1,321 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About us</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  </head>
-  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
     <!-- NAVBAR -->
-    <div class="container d-flex justify-content-center">
+    <!--This is the Header / Nav bar for Desktop-->
+    <div>
+        <br>
+        <br>
+    </div>
+    <div class="container d-flex justify-content-center d-none d-xxl-block">
         <div class="row d-flex align-items-end NavFont container-fluid ">
-            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../index.html" style="text-decoration:none">Home</a></div>
-            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="./classes.html" style="text-decoration:none">Classes</a></div>
-            <div class="col d-flex justify-content-center"><img class="Logo" src="../assets/my_project.png" alt=""> </div>
-            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="./aboutus.html" style="text-decoration:none">About Us</a></div>
-            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="./contactus.html" style="text-decoration:none">Contact us</a></div>
+            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../index.html"
+                    style="text-decoration:none; color: white;">Home</a></div>
+            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/classes.html"
+                    style="text-decoration:none; color: white;">Classes</a></div>
+            <div class="col d-flex justify-content-center"><img class="Logo" src="../assets/my_project.png" alt="">
+            </div>
+            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/aboutus.html"
+                    style="text-decoration:none; color: white;">About Us</a></div>
+            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/contactus.html"
+                    style="text-decoration:none; color: white;">Contact us</a></div>
         </div>
-      </div>
-      <!-- OUR PHILOSPHY BOX AND PICTURE -->
-      <div class="container" id="parent">
+    </div>
+    <!--This is the Header / Nav bar for Tablet-->
+    <div class="container d-flex justify-content-center d-xxl-none d-xxl-block d-none d-sm-block">
+        <div class="row d-flex align-items-end NavFontTablet container-fluid ">
+            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../index.html"
+                    style="text-decoration:none; color: white;">Home</a></div>
+            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/classes.html"
+                    style="text-decoration:none; color: white;">Classes</a></div>
+            <div class="col d-flex justify-content-center"><img style="height: 125px; width: 200px;" class="Logo"
+                    src="../assets/my_project.png" alt="">
+            </div>
+            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/aboutus.html"
+                    style="text-decoration:none; color: white;">About Us</a></div>
+            <div class="col-2 d-flex justify-content-center btn-primary hover"><a href="../pages/contactus.html"
+                    style="text-decoration:none; color: white;">Contact us</a></div>
+        </div>
+    </div>
+    <!--MOBILE NAV BAR-->
+    
+    <div style="position:absolute; height: 55px;" class="container"></div>
+    <div class="d-flex justify-content-end ">
+        <nav style="position:absolute;" class="navbar navbar-expand-lg d-block d-sm-none">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler ClassTextBg" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-light"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <div class="d-flex justify-content-end">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link NavFontTablet" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link NavFontTablet" href="../pages/classes.html">Classes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link NavFontTablet" href="../pages/aboutus.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link NavFontTablet" href="../pages/contactus.html">Contact</a>
+                            </li>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br class="d-block d-sm-none">
+    <br class="d-block d-sm-none">
+    <br class="d-block d-sm-none">
+    <div class="col d-flex justify-content-beginning d-block d-sm-none"><img
+            style="height: 125px; width: 200px; position: static" class="Logo" src="../assets/my_project.png" alt="">
+    </div>
+    <div>
+        <br>
+        <br>
+    </div>
+    <!-- OUR PHILOSPHY BOX AND PICTURE -->
+    <div class="container" id="parent" style="padding: 0;">
         <h1 class="centered">OUR PHILOSPHY</h1>
         <img id="PhilosphyPicture" class="img-fluid" src="../assets/DCS_3466.jpg" alt="">
-      </div>
+        <div class="centered" id="space">
+            <h1></h1> <!-- blank h1 tag used to create a 167px border underneath -->
+        </div>
 
-      <!-- break div IGNORE -->
-      <div>
-        <br>
-        <br>
-        <br>
-      </div>
-    
-      <!-- Philosophy paragraphs below picture -->
-      <div class="container">
-        <p id="OurPhilosophyP">At CAMA we take a personalized approach to help you with all your exercise, fitness, and health needs.</h4>
-        <p id="OurPhilosophyP">We strive to promote the physical as well as mental health benefits of martial arts training through honest & sincere instruction.</p>
-        <p id="OurPhilosophyP">We feel that the word "art" in martial arts has tremendous value, yet the most important aspect is the individual.</p>
-        <p id="OurPhilosophyP">Therefore the individual will have a thorough understanding of what they are learning rather than just becoming a product of the school or instructor.</p>
-      </div>
 
-      <!-- "Our coaches" below -->
-      <div class="container">
+    </div>
+
+    <!-- break div IGNORE -->
+    <div>
+        <br>
+        <br>
+    </div>
+
+    <!-- Philosophy paragraphs below picture -->
+    <div class="container">
+        <p id="OurPhilosophyP">At CAMA we take a personalized approach to help you with all your exercise, fitness, and
+            health needs.</h4>
+        <p id="OurPhilosophyP">We strive to promote the physical as well as mental health benefits of martial arts
+            training through honest & sincere instruction.</p>
+        <p id="OurPhilosophyP">We feel that the word "art" in martial arts has tremendous value, yet the most important
+            aspect is the individual.</p>
+        <p id="OurPhilosophyP">Therefore the individual will have a thorough understanding of what they are learning
+            rather than just becoming a product of the school or instructor.</p>
+    </div>
+
+    <div>
+        <br>
+        <br>
+    </div>
+    <!-- "Our coaches" below -->
+    <div class="container">
         <h1 class="centered">OUR COACHES</h1>
 
         <!-- Coach Images w/ captions -->
-        
-          <img id="Coaches" src="/assets/coach.jpg" alt=""><img id="Coaches" src="/assets/DCS_3695.jpg" alt=""><img id="Coaches" src="/assets/DCS_2163.jpg" alt=""><img id="Coaches" src="/assets/DCS_2163.jpg" alt="">
 
-        
-
+        <img id="Coaches" src="/assets/coach.jpg" alt=""><img id="Coaches" src="/assets/DCS_3695.jpg" alt=""><img
+            id="Coaches" src="/assets/DCS_2163.jpg" alt=""><img id="Coaches" src="/assets/DCS_2163.jpg" alt="">
 
 
 
-      </div>
-    
 
-      <!-- To the top Button -->
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><img height="30" src="../assets/up.png" alt=""></button>
+
+
+    </div>
+    <!-- FOOTER -->
+    <!--Desktop Footer-->
+    <div class="d-flex justify-content-center d-none d-xxl-block ">
+        <div class=" footer container-fluid">
+            <div class=" footer-contnet">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex justify-content-center">
+                            <img class=" Logo" src="../assets/my_project.png" alt="">
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-center">
+                            <h3 class="ChangaReg footerText">Connect With Us</h3>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="Social">
+                                <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/facebook.png"
+                                            style="height: 70px;" alt=""></a></li>
+                                <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/twitter (1).png"
+                                            style="height: 70px;" alt=""></a></li>
+                                <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/Tiktok.png"
+                                            style="height: 70px;" alt=""></a></li>
+                                <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/youtube.png"
+                                            style="height: 70px;" alt=""></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="align-text-center ChangaReg" style="padding-left: 50px;">
+                            <div>
+                                <h3 class="footerText" style="padding-top: 100px;">Developers Git-Hubs</h3>
+                            </div>
+                            <div>
+                                <p>Arely Martinez</p>
+                                <p style="padding: 15px 0;">Isaiah Ferguson</p>
+                                <p>Harrison Wilkson</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="align-text-center ChangaReg" style="padding-left: 50px;">
+                            <div>
+                                <h3 class="footerText" style="padding-top: 100px;">Contact Us</h3>
+                            </div>
+                            <div class="FooterText2">
+                                <p>E-mail: 123@TeamCama.com</p>
+                                <p style="padding: 15px 0;">Phone Number: 209-123-45678</p>
+                                <p>Address: 8909 Thornton rd #2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <br>
+    <br>
+    <!--Tablet Footer-->
+    <div class="d-flex justify-content-center d-none d-sm-block d-xxl-none .d-xxl-block">
+        <div class=" footer container-fluid">
+            <div class=" footer-contnet">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex justify-content-center">
+                            <img class=" Logo" src="../assets/my_project.png" alt="">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h3 class="ChangaReg footerTextMobile">Connect With Us</h3>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="Social">
+                                <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/facebook.png"
+                                            style="height: 50px;" alt=""></a></li>
+                                <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/twitter (1).png"
+                                            style="height: 50px;" alt=""></a></li>
+                                <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/Tiktok.png"
+                                            style="height: 50px;" alt=""></a></li>
+                                <li style="padding: 0px 5px 10px 5px;"><a href="#"><img src="../assets/youtube.png"
+                                            style="height: 50px;" alt=""></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="align-text-center ChangaRegMobile" style="padding-left: 50px;">
+                            <div>
+                                <h3 class="footerTextMobile" style="padding-top: 100px;">Developers Git-Hubs</h3>
+                            </div>
+                            <div>
+                                <p>Arely Martinez</p>
+                                <p style="padding: 15px 0;">Isaiah Ferguson</p>
+                                <p>Harrison Wilkson</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="align-text-center ChangaRegMobile" style="padding-left: 50px;">
+                            <div>
+                                <h3 class="footerTextMobile" style="padding-top: 100px;">Contact Us</h3>
+                            </div>
+                            <div class="ChangaRegMobile">
+                                <p>E-mail: 123@TeamCama.com</p>
+                                <p style="padding: 15px 0;">Phone Number: 209-123-45678</p>
+                                <p>Address: 8909 Thornton rd #2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <!--Mobile Footer-->
+    <div class="d-flex justify-content-center d-block d-sm-none">
+        <div class=" footer container-fluid">
+            <div class=" footer-contnet">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="d-flex justify-content-center">
+                            <img style="height: 125px; width: 200px;" class="Logo" src="../assets/my_project.png"
+                                alt="">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h3 class="ChangaReg footerTextMobile badge text-wrap">Connect With Us</h3>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="SocialMobile">
+                                <li style="padding: 0px 15px 0 15px;"><a href="#"><img src="../assets/facebook.png"
+                                            style="height: 50px;" alt=""></a></li>
+                                <li style="padding: 0px 15px 0 15px;"><a href="#"><img src="../assets/twitter (1).png"
+                                            style="height: 50px;" alt=""></a></li>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="SocialMobile">
+                                <li style="padding: 0px 15px 0 15px;"><a href="#"><img src="../assets/Tiktok.png"
+                                            style="height: 50px;" alt=""></a></li>
+                                <li style="padding: 0px 15px 0 15px;"><a href="#"><img src="../assets/youtube.png"
+                                            style="height: 50px;" alt=""></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="align-text-center ChangaRegMobile" style="padding-left: 35px; padding-top: 35px;">
+                            <div>
+                                <h3 class="footerTextMobile">Developers Git-Hubs</h3>
+                            </div>
+                            <div>
+                                <p>Isaiah Ferguson</p>
+                                <p>Harrison Wilkson</p>
+                            </div>
+                        </div>
+                        <div class="align-text-center ChangaRegMobile" style="padding-left: 35px; padding-top: 35px;">
+                            <div>
+                                <h3 class="footerTextMobile">Contact Us</h3>
+                            </div>
+                            <div class="ChangaRegtablet ">
+                                <p>E-mail: 123@TeamCama.com</p>
+                                <p>Phone Number: 209-123-45678</p>
+                                <p>Address: 8909 Thornton rd #2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <br>
+    <br>
+
+    <!-- To the top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img height="30" src="../assets/up.png"
+            alt=""></button>
     <script src="../scripts/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
