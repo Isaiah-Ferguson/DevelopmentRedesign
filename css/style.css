@@ -7,6 +7,295 @@
     font-family: ChangaOne;
     src: url(../fonts/ChangaOne-Regular.ttf);
  }
+ .NavFont{
+   font-family: Changa;
+   font-weight: bold;
+   font-size: xx-large;
+   color: white;
+ }
+ .NavFontTablet{
+  font-family: Changa;
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
+}
+.Logo {
+   width: 300px;
+}
+#myBtn {
+   display: none; /* Hidden by default */
+   position: fixed; /* Fixed/sticky position */
+   bottom: 20px; /* Place the button at the bottom of the page */
+   right: 30px; /* Place the button 30px from the right */
+   z-index: 99; /* Make sure it does not overlap */
+   border: none; /* Remove borders */
+   outline: none; /* Remove outline */
+   background-image: url(../assets/pngwing.com.png);
+   cursor: pointer; /* Add a mouse pointer on hover */
+   padding: 10px; /* Some padding */
+   border-radius: 10px; /* Rounded corners */
+   font-size: 18px; /* Increase font size */
+ }
+ 
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: rgb(150, 9, 9);
+    border-color: #fff;
+    outline: 3px solid white;
+    padding: 3px;
+    display: inline-block;
+}
+ #myBtn:hover {
+   background-color: rgb(185, 185, 252);
+   opacity: .5;
+ }
+ .parent {
+   background-image: url(/assets/1163994.jpg);
+ }
+ body {
+   background-image: url(/assets/wallpaperflare.com_wallpaper\ \(1\).jpg);
+   background-repeat: repeat;
+ }
+ /* most text here - Harrison */
+#OurPhilosophyP {
+  font-family: Changa;
+  font-weight: bolder;
+  font-size: 38px;
+  color: #fff;
+}
+/* Centered text with blue smokey BG */
+.centered {
+   font-weight: bold;
+   font-family: Changa;
+   text-align: center;
+   font-size: 48px;
+   background-image: url(/assets/1163994.jpg);
+   margin: 0;
+   padding: 2%;
+ }
+ .contactTitle {
+  font-weight: bold;
+   font-family: Changa;
+   text-align: center;
+   font-size: 48px;
+  padding: 2%;   
+  margin: 0;
+ }
+#Coaches {
+   display: flex;
+   width: 100%;
+   height: max-content;
+}
+#Address {
+  font-size: 24px;
+  margin-bottom: 1%;
+}
+.coachesCaptions {
+  position: relative;
+  z-index: 100;
+}
+
+#CoachCAMA {
+    font-weight: bold;
+    font-family: Changa;
+    text-align: center;
+    font-size: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/coach.jpg);
+    color: white;
+    text-shadow: 3px 3px 5px #444;
+}
+#CoachIsaiah {
+  font-weight: bold;
+    font-family: Changa;
+    text-align: center;
+    font-size: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/DSC_1342.jpg);
+    color: white;
+  text-shadow: 3px 3px 5px #444;
+}
+#CoachAngelo {
+  font-weight: bold;
+    font-family: Changa;
+    text-align: center;
+    font-size: 24px;
+    background-size: cover;
+    background-image: url(/assets/FB_IMG_1621567712264.jpg);
+    background-repeat: no-repeat;
+  color: white;
+  text-shadow: 3px 3px 5px #444;
+}
+#CoachTina {
+  font-weight: bold;
+    font-family: Changa;
+    text-align: center;
+    font-size: 24px;
+    background-image: url(/assets/DCS_2163.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px 5px #444;
+}
+
+
+
+/* CONTACT US PAGE BEGINS HERE */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+   width: 100%; /* Full width */
+   padding: 12px; /* Some padding */ 
+   border: 4px solid rgb(0, 0, 0); /* Black border */
+   border-radius: 4px; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 6px; /* Add a top margin */
+   margin-bottom: 16px; /* Bottom margin */
+   resize: vertical /* Allow the user to horizontally resize the textarea (not horizontally) */
+ }
+
+ /* Style the submit button with a specific background color etc */
+ input[type=submit] {
+   background-color: rgb(0, 0, 0);
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   display: flex;
+ }
+ 
+ /* When moving the mouse over the submit button, add a darker green color */
+ input[type=submit]:hover {
+   background-color: rgb(179, 0, 33);
+ }
+ 
+ /* Add a background color and some padding around the form */
+ .contactCard {
+   border-radius: 5px;
+   background-image: url(/assets/1163994.jpg);
+   
+ }
+ .SolidBlack{
+  background-color: rgba(0, 0, 0);
+}
+
+
+/* footer */
+.footer{
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 2%;
+}
+.Social{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 3rem 0;
+}
+.SocialMobile{
+ list-style: none;
+ display: flex;
+ align-items: center;
+ margin: 1rem 0 1rem 0;
+}
+.footerText{
+  font-family: ChangaOne;
+  font-size: 36px;
+}
+.footerTextMobile{
+ font-family: ChangaOne;
+ font-size: 26px;
+}
+.FooterText2{
+  font-family: Changa;
+  font-size: 24px;
+}
+.ChangaReg{
+  font-family: Changa;
+  font-size: 27px;
+  color: white;
+}
+.ChangaRegMobile{
+ font-family: Changa;
+ font-size: small;
+ color: white;
+}
+
+
+.contact {
+  border: 2px solid black;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#GymHours {
+  font-family: Changa;
+  font-size: 42px;
+  color: red;
+}
+.schedule {
+  font-size: 28px;
+}
+#space {
+  height: 50px;
+}
+@media screen and (max-width: 768px) {
+  .contactTitle {
+    font-size: 30px;
+    padding: 3%;
+  }
+  #GymHours {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .schedule {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contactTitle {
+    font-size: 24px;
+    padding: 3%;
+  }
+  #Address {
+    font-size: 16px;
+  }
+  #GymHours {
+    margin: 8px;
+    font-size: 15px;
+  }
+  .schedule {
+    font-size: 12px;
+    margin: 5px;
+  }
+  .centered {
+    font-size: 30px;
+    background-image: url(/assets/1163994.jpg);
+    background-size: cover;
+  }
+  #space {
+    height: 54px;
+  }
+  #OurPhilosophyP {
+    font-size: 17px;
+    margin: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 
  .Bg{
     background-image: url(../assets/wallpaperflare.com_wallpaper\ \(1\).jpg);
