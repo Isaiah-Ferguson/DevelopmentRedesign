@@ -72,7 +72,7 @@
    font-weight: bold;
    font-family: Changa;
    text-align: center;
-   font-size: 96px;
+   font-size: 48px;
    background-image: url(/assets/1163994.jpg);
    margin: 0;
    padding: 2%;
@@ -82,19 +82,68 @@
    font-family: Changa;
    text-align: center;
    font-size: 48px;
-   margin: 0;
-   
+  padding: 2%;   
+  margin: 0;
  }
 #Coaches {
    display: flex;
-   width: 323px;
-   height: 50vh;
+   width: 100%;
+   height: max-content;
 }
 #Address {
   font-size: 24px;
   margin-bottom: 1%;
 }
+.coachesCaptions {
+  position: relative;
+  z-index: 100;
+}
 
+#CoachCAMA {
+    font-weight: bold;
+    font-family: Changa;
+    text-align: center;
+    font-size: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/coach.jpg);
+    color: white;
+    text-shadow: 3px 3px 5px #444;
+}
+#CoachIsaiah {
+  font-weight: bold;
+    font-family: Changa;
+    text-align: center;
+    font-size: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/DSC_1342.jpg);
+    color: white;
+  text-shadow: 3px 3px 5px #444;
+}
+#CoachAngelo {
+  font-weight: bold;
+    font-family: Changa;
+    text-align: center;
+    font-size: 24px;
+    background-size: cover;
+    background-image: url(/assets/FB_IMG_1621567712264.jpg);
+    background-repeat: no-repeat;
+  color: white;
+  text-shadow: 3px 3px 5px #444;
+}
+#CoachTina {
+  font-weight: bold;
+    font-family: Changa;
+    align-content: flex-end;
+    text-align: center;
+    font-size: 24px;
+    background-image: url(/assets/DCS_2163.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px 5px #444;
+}
 
 
 
@@ -199,22 +248,38 @@ input[type=text], select, textarea {
 .schedule {
   font-size: 28px;
 }
-@media screen and (max-width: 515px) {
+#space {
+  height: 50px;
+}
+@media screen and (max-width: 768px) {
   .contactTitle {
     font-size: 30px;
-    padding: 5%;
-  }
-  .contact {
-    font-size: 24px;
-  }
-  #Address {
-    font-size: 8px;
+    padding: 3%;
   }
   #GymHours {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .schedule {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contactTitle {
+    font-size: 24px;
+    padding: 3%;
+  }
+  #Address {
+    font-size: 16px;
+  }
+  #GymHours {
+    margin: 8px;
     font-size: 15px;
   }
   .schedule {
-    font-size: 10px;
+    font-size: 12px;
+    margin: 5px;
   }
   .centered {
     font-size: 30px;
@@ -229,10 +294,5 @@ input[type=text], select, textarea {
     margin: 4%;
     padding-left: 5%;
     padding-right: 5%;
-  }
-}
-@media screen and (max-width:768px){
-  .contactTitle {
-    font-size: 30px;
   }
 }
